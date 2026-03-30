@@ -10,3 +10,6 @@ Repositório destinado a guardar os códigos da primeira lista de exercícios av
 ## Tecnologias e Ferramentas
 - Linguagem: **C**
 - Compilador: **GCC**
+## Observações
+1. Recomendo por praticidade e rapidez usar o codespaces do Github para testar os códigos;
+2. Em alguns casos pode ser necessário usar o sufixo "-lm" ao compilar o código, exemplo: gcc ex1.c -o ex1 -lm. Isso é devido a biblioteca <math.h>.
